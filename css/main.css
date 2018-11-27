@@ -1,0 +1,75 @@
+body {
+  background-color: #efefef;
+}
+
+.example {
+  background-color: #fff;
+  border-radius: 3px;
+  width: 960px;
+  margin: 20px auto;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.12);
+}
+
+.menu-primary {
+  height: 230px;
+  width: 920px;
+  background: url('../assets/logo.png') left 50% no-repeat;
+  margin: 20px auto;
+}
+
+.menu-primary a {
+  font-family: 'PT Sans Narrow', Arial, Hevetica, sans-serif;
+  font-size: 24px;
+  color: #222;
+  transition: color 0.2s ease;
+  text-decoration: none;
+}
+
+.menu-primary a:hover {
+  color: #0099ad;
+}
+
+nav.primary {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+}
+
+nav.primary > div {
+  margin: 10px;
+  padding: 0 20px;
+}
+
+nav.primary > div:last-child {
+  padding-right: 0;
+}
+
+.item.item-hire {
+  padding-top: 20px;
+}
+
+.item.item-art {
+  padding-top: 60px;
+  margin-right: 20px;
+}
+
+.item.item-speaking {
+  margin-right: 24px;
+  padding-bottom: 56px;
+}
+
+.item.item-design {
+  padding-top: 8px;
+}
+
+.item.item-narrative {
+  padding-top: 34px;
+}
+
+.item.item-books {
+  margin-right: 30px;
+  padding-top: 80px;
+}
